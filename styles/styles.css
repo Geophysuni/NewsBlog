@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url(https://images.unsplash.com/photo-1605731414532-6b26976cc153?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) bottom no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.newslabel{
+    color: rgb(206, 205, 205);
+    font-size: 100px;
+    text-decoration: none;
+}
+
+.mainpart{
+    display : flex;
+    justify-content : center;
+    margin-top: 70px;
+}
+
+.textblock{
+    width: 600px;
+}
+.main_photobox{
+    margin-left: 40px;
+    width: 400px;
+    
+}
+
+.newsphoto{
+    max-width: 100%;
+    margin-top: 15%
+}
+
+footer{
+    
+    margin-top: 50px;
+    height: 15px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.footerLincs a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.newsTitle{
+    font-size: 50px;
+}
+
+.shordDescription{
+    font-size: 30px;
+}
+
+.copyright{
+    margin-top: 20px;
+}
+
+.authtor{
+    font-size: 25px;
+    color: grey;
+    margin-right: 10px;
+}
+
+.newsDate{
+    font-size: 25px;
+    color: grey;
+}
+
+.newsLink{
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainpart:nth-of-type(2n){
+    background-color: rgb(240, 245, 245);
+}
+
+
+.mainpart:nth-child(-n + 2) .newsLink::before { content: "NEW "; }
+
+
+.newsLabel{
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+
+.mainpageLink{
+    text-decoration: none;
+    font-size: 25px;
+    color: grey;
+    padding-right: 150px;
+}
+
+.curNewsText{
+    font-size: 30px;
+}
+
+.newsText{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.curNewsMeta{
+    padding-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.curNewsPhotobox{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contacts{
+    padding-top: 30px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    justify-content : center;
+}
+
+.googlemap{
+    padding-top: 30px;
+    display : flex;
+    justify-content : center;
+}
+
+.map{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pageTitle{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
